@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This app helps youtubers pick the best background color for their videos">
+    	<meta name="keywords" content="youtube, background, lights">
+
+		<title>Youtube Background Picker</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Javascript -->
+		<script type="text/javascript" src="js/main.js" defer></script>
+	</head>
+	<body>
+		<section class="container">
+			<main>
+				<h1>Youtube Background Picker</h1>
+				<img src="img/chair.png" alt="generic youtube gaming chair">
+			</main>
+			<section id="colorizer">
+				<input id="colorPicker" type="color">
+				<label for="colorPicker">Pick a Color</label>
+			</section>
+			<section id="results">
+				<!-- Hex Code -->
+				<span id="hexCode"></span>
+				<!-- HSL Code -->
+				<span id="hslCode"></span>
+				<!-- RGB Code -->
+				<span id="rgbCode"></span>
+			</section>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;600&display=swap');
+
+/* Variables */
+:root {
+  --ff-sans: 'Merriweather Sans', sans-serif;
+}
+
+/* Box Model Hack */
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base Styles */
+body {
+  font-family: var(--ff-sans);
+}
+
+h1, h2{
+  text-align: center;
+}
+
+h1 {
+  font-size: clamp(1rem, 5.5vw +1rem, 3.5rem); 
+}
+
+/* Layout */
+body {
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  margin-block: 2rem; 
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 1px #00000025;
+}
+
+img{
+  display: block;
+  height: 300px;
+  margin: 1rem auto;
+}
+
+label {
+  display: block;
+  padding-block: 1rem;
+}
+
+span {
+  display: block;
+}
